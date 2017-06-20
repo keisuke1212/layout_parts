@@ -2,4 +2,36 @@
 
 /* 回答はここに書いてね */
 
+.gohan{
+  width: 100%;
+  table-layout: fixed;
+}
+
+th:first-child{
+  background-color: #2244aa;
+  color: #FFF;
+  font-size:18px;
+  line-height: 22px;
+}
+
+tr th{
+  border: solid #dedede 1px;
+  font-size: 16px;
+  line-height: 22px;
+  height:10px;
+  padding:10px 0px;
+}
+
+tr:first-child{
+  background-color: #2244aa;
+  color: #FFF;
+  font-size:18px;
+  line-height: 22px;
+}
+
+tr:last-child{
+  border-top: dashed #000 2px;
+}
+
+
 /* 回答はここに書いてね */
