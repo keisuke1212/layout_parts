@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.container{
+  background-color: #ecf1f2;
+  padding: 20px;
+}
+.font{
+  font-size: 16px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+.grid__style{
+  display: grid;
+  grid-gap: 20px;
+}
+.grid__style:not(:first-child){ margin-top: 20px; }
+.grid__12{ grid-template-columns: 1fr; }
+.grid__6{ grid-template-columns:1fr 1fr; }
+.grid__4{ grid-template-columns:1fr 1fr 1fr; }
+.grid__3{ grid-template-columns:1fr 1fr 1fr 1fr; }
+.grid__24{ grid-template-columns:1fr 1fr 1fr 1fr 1fr; }
+.grid__2{ grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr; }
+.grid__6-3{ grid-template-columns:2fr 1fr 1fr; }
+.grid__2-4{ grid-template-columns:1fr 1fr 2fr 2fr; }
 /* 回答はここに書いてね */
