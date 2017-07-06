@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.comment {
+  width: 500px;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+}
+
+.comment:before {
+  border-top: 25px solid #222;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 25px;
+}
+
+.comment:after {
+  border-top: 20px solid #fff;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  content: '';
+  position: absolute;
+  bottom: -18px;
+  left: 30px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 16px;
+  word-break: break-all;
+}
 /* 回答はここに書いてね */
+
