@@ -11,7 +11,6 @@
   margin: 0 auto;
   position: relative;
 }
-
 .comment:before {
   border-top: 25px solid #222;
   border-right: 25px solid transparent;
@@ -21,7 +20,6 @@
   bottom: -25px;
   left: 25px;
 }
-
 .comment:after {
   border-top: 20px solid #fff;
   border-right: 20px solid transparent;
@@ -31,7 +29,6 @@
   bottom: -18px;
   left: 30px;
 }
-
 .text {
   font-size: 16px;
   line-height: 16px;

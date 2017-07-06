@@ -1,32 +1,26 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-.box__outer{
+.box__outer {
   margin: 0;
   width: 900px;
   background-color: #eff3f4;
 }
-
-.box1{
+.box1 {
   padding: 20px 20px 0px 20px;
 }
-
-.img_1{
+.img_1 {
   float: left;
   margin: 0px 20px 10px 0px;
 }
-
-.box2{
+.box2 {
   padding: 0px 20px 20px 20px;
 }
-
-.img_2{
+.img_2 {
   float: right;
   margin: 0px 0px 10px 20px ;
 }
-
-p{
+p {
   font-size: 18px;
   line-height: 22px;
 }
