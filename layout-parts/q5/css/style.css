@@ -3,61 +3,52 @@
 /* 回答はここに書いてね */
 
 /*一個目*/
-.text-align{
+.text-align {
   text-align: center;
 }
-
 .text-align > p {
   width: 90px;
   background-color: #e6f2ff;
   padding: 10px 0;
   display: inline-block;
 }
-
 /*二個目*/
-.margin{
+.margin {
   background-color: #e6f2ff;
   margin: auto auto;
   text-align: center;
   padding: 10px 0px;
   width: 90px;
 }
-
 /*三個目*/
-.displaytable{
+.displaytable {
   display: table;
 }
-
-.table{
+.table {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
 }
-
 .table > p {
   padding: 10px;
   background-color: #FFF;
   display: inline-block;
 }
-
 /*四個目*/
-.flex{
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .flex > p {
   padding: 10px;
   background-color: #FFF;
 }
-
 /*五個目*/
-.position_fixed{
+.position__fixed {
   position: relative;
 }
-
-.position_fixed > p {
+.position__fixed > p {
   position: absolute;
   top: 0;
   left: 0;
@@ -65,15 +56,11 @@
   bottom: 0;
   margin: auto;
 }
-
 /*六個目*/
-.position_variable > p {
+.position__variable > p {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-
-
-
 /* 回答はここに書いてね */

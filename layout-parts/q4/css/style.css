@@ -2,29 +2,29 @@
 
 /* 回答はここに書いてね */
 
-.overall{
+.overall {
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
   margin: 0 auto;
   position: relative;
 }
-
-.purple{
+.smallbox {
   width: 100px;
   height:100px;
-  background-color: #de70cf;
   font-size: 30px;
-  font-weight: bold;
-  text-align: center;
   line-height: 100px;
-  position: absolute;
+  text-align: center;
+  font-weight: bold;
+}
+.smallbox:not(:last-child) { position: absolute; }
+.purple {
+  background-color: #de70cf;
   top: 120px;
   left: 120px;
   z-index: 8;
 }
-
-.purple:after{
+.purple:after {
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
@@ -33,113 +33,50 @@
   right: 0px;
   content: "";
 }
-
-.lightblue{
-  width: 100px;
-  height:100px;
+.lightblue {
   background-color: #9fd6d2;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
   bottom: 40px;
   left: 200px;
   z-index: 5;
 }
-
-.fleshcolor{
-  width: 100px;
-  height:100px;
+.fleshcolor {
   background-color: #ffefd3;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
   top: 40px;
   left: 200px;
   z-index: 1;
 }
-
-.brown{
-  width: 100px;
-  height:100px;
+.brown {
   background-color: #deae70;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
-
-.gray{
-  width: 100px;
-  height:100px;
+.gray {
   background-color: #8b7a5e;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
   bottom: 120px;
   right: 120px;
   z-index: 4;
 }
-
-.white{
-  width: 100px;
-  height:100px;
+.white {
   background-color: #fffee4;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
   bottom: 120px;
   left: 120px;
   z-index: 6;
 }
-
-.blue{
-  width: 100px;
-  height:100px;
+.blue {
   background-color: #7084de;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
   top: 120px;
   right: 120px;
   z-index: 2;
 }
-
-.skyblue{
-  width: 100px;
-  height:100px;
+.skyblue {
   background-color: #d0ecea;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
   top: 200px;
   right: 40px;
   z-index: 3;
 }
-
-.deepblue{
-  width: 100px;
-  height:100px;
+.deepblue {
   background-color: #2b69a3;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
   position: fixed;
   top: 10px;
   left: 10px;

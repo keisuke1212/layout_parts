@@ -9,26 +9,26 @@
   content: "";
 }
 
-.box1{
+.warpper{
   width: 900px;
   background-color: #eff3f4;
   margin: 0 auto;
 }
 
-.box1_1{
+.outer__box{
   background-color: #3274ae;
   float: left;
   width: 270px;
   margin: 20px 0px 20px 20px;
 }
 
-.box1_1_1{
+.inner__box{
   background-color: #eaf4ff;
   border: 10px solid #022336;
   margin: 20px;
 }
 
-.a{
+.text{
   font-size: 16px;
   line-height: 16px;
   padding: 20px;

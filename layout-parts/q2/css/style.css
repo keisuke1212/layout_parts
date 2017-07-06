@@ -2,8 +2,8 @@
 
 /* 回答はここに書いてね */
 
-.box_{
-  margin: 0 auto;
+.box__outer{
+  margin: 0;
   width: 900px;
   background-color: #eff3f4;
 }

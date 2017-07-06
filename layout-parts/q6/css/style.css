@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-.small{
+.small {
   font-size: 16px;
   border-radius: 3px;
   padding: 15px 0px;
@@ -12,8 +11,7 @@
   height: 26px;
   line-height: 26px;
 }
-
-.middle{
+.middle {
   font-size: 20px;
   border-radius: 5px;
   padding: 20px 0px;
@@ -23,8 +21,7 @@
   height: 32px;
   line-height: 32px;
 }
-
-.large{
+.large {
   font-size: 24px;
   border-radius: 7px;
   padding: 25px 0px;
@@ -34,25 +31,21 @@
   height: 38px;
   line-height: 38px;
 }
-
-.blue{
+.blue {
   background-color: #00bcd4;
   color: #FFF;
 }
-
-.red{
+.red {
   background-color: #ff4081;
   color: #FFF;
   margin-left: 10px;
 }
-
-.gray{
+.gray {
   background-color: #e5e5e5;
   color: #FFF;
   margin-left: 10px;
 }
-
-.white{
+.white {
   background-color: #FFF;
   color: #222;
   box-shadow: 0 1px 6px rgba(0,0,0,.12);
