@@ -11,24 +11,25 @@
   margin: 0 auto;
   position: relative;
 }
+
 .comment:before {
+  border: 25px solid transparent;
   border-top: 25px solid #222;
-  border-right: 25px solid transparent;
-  border-left: 25px solid transparent;
   content: '';
   position: absolute;
-  bottom: -25px;
+  bottom: -50px;
   left: 25px;
 }
+
 .comment:after {
+  border: 20px solid transparent;
   border-top: 20px solid #fff;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
   content: '';
   position: absolute;
-  bottom: -18px;
+  bottom: -38px;
   left: 30px;
 }
+
 .text {
   font-size: 16px;
   line-height: 16px;

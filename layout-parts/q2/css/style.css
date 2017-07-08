@@ -2,26 +2,26 @@
 
 /* 回答はここに書いてね */
 .box__outer {
-  margin: 0;
+  margin: 0 auto;
   width: 900px;
   background-color: #eff3f4;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.box1 {
-  padding: 20px 20px 0px 20px;
-}
+
 .img_1 {
   float: left;
   margin: 0px 20px 10px 0px;
 }
-.box2 {
-  padding: 0px 20px 20px 20px;
-}
+
 .img_2 {
   float: right;
   margin: 0px 0px 10px 20px ;
 }
-p {
+
+.text {
   font-size: 18px;
   line-height: 22px;
+  word-break: break-all;
 }
 /* 回答はここに書いてね */

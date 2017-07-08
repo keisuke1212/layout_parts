@@ -4,49 +4,55 @@
 .small {
   font-size: 16px;
   border-radius: 3px;
-  padding: 15px 0px;
+  padding: 15px 0;
   height: 26px;
   display: inline-block;
   padding: 0 15px;
   height: 26px;
   line-height: 26px;
 }
+
 .middle {
   font-size: 20px;
   border-radius: 5px;
-  padding: 20px 0px;
+  padding: 20px 0;
   height: 32px;
   display: inline-block;
   padding: 0 20px;
   height: 32px;
   line-height: 32px;
 }
+
 .large {
   font-size: 24px;
   border-radius: 7px;
-  padding: 25px 0px;
+  padding: 25px 0;
   height: 38px;
   display: inline-block;
   padding: 0 25px;
   height: 38px;
   line-height: 38px;
 }
+
 .blue {
   background-color: #00bcd4;
-  color: #FFF;
+  color: #fff;
 }
+
 .red {
   background-color: #ff4081;
-  color: #FFF;
+  color: #fff;
   margin-left: 10px;
 }
+
 .gray {
   background-color: #e5e5e5;
-  color: #FFF;
+  color: #fff;
   margin-left: 10px;
 }
+
 .white {
-  background-color: #FFF;
+  background-color: #fff;
   color: #222;
   box-shadow: 0 1px 6px rgba(0,0,0,.12);
   margin-left: 10px;

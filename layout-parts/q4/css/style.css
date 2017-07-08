@@ -4,10 +4,11 @@
 .overall {
   width: 500px;
   height: 500px;
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
   margin: 0 auto;
   position: relative;
 }
+
 .smallbox {
   width: 100px;
   height:100px;
@@ -16,64 +17,75 @@
   text-align: center;
   font-weight: bold;
 }
+
 .smallbox:not(:last-child) { position: absolute; }
+
 .purple {
   background-color: #de70cf;
   top: 120px;
   left: 120px;
   z-index: 8;
 }
+
 .purple:after {
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   content: "";
 }
+
 .lightblue {
   background-color: #9fd6d2;
   bottom: 40px;
   left: 200px;
   z-index: 5;
 }
+
 .fleshcolor {
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
   z-index: 1;
 }
+
 .brown {
   background-color: #deae70;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
+
 .gray {
   background-color: #8b7a5e;
   bottom: 120px;
   right: 120px;
   z-index: 4;
 }
+
 .white {
   background-color: #fffee4;
   bottom: 120px;
   left: 120px;
   z-index: 6;
 }
+
 .blue {
   background-color: #7084de;
   top: 120px;
   right: 120px;
   z-index: 2;
 }
+
 .skyblue {
   background-color: #d0ecea;
   top: 200px;
   right: 40px;
   z-index: 3;
 }
+
 .deepblue {
   background-color: #2b69a3;
   position: fixed;
